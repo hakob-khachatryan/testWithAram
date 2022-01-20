@@ -1,0 +1,166 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+.hetev{
+   width: 100%;
+   height: 170vh;
+   background:gray;
+   background-position: center;
+   background-size: cover;
+   padding-left: 3%;
+   padding-right: 4%;
+   box-sizing: border-box;
+}
+
+.logo h1 {
+   font-size: 60px;
+   padding-left: 37%;
+}
+
+ul {
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translate(-50%,-50%);
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+ul li {
+   list-style: none;
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  padding: 10px 30px;
+  margin: 20px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  transition: .5s;
+}
+
+ul li a:before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-top: 1px solid #000;
+   border-bottom: 1px solid #000;
+   transform: scaleY(2);
+   opacity: 0;
+   transition: .5s;
+}
+
+ul li a:hover:before{
+   transform: scaleY(1);
+   opacity: 1;
+}
+
+.nkar .nkar1{
+   width: 500px;
+   height: 500px;
+   background: rgb(255, 255, 255);
+   background-image: url(https://cdn.shopify.com/s/files/1/0228/0911/6708/products/Motumo-Kimono-Style-Loose-Linen-Top-at-Amberoot-3_2048x2048.jpg?v=1614009178);
+  background-size: cover;
+   position: absolute;
+   top: 30%;
+   left: 15%;
+}
+
+.nkar .nkar1 h1 {
+   font-size: 60px;
+   position: absolute;
+   left: 25%;
+   top: 43%;
+   opacity: 0;
+   transition: 1s;
+}
+
+.nkar1:hover                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      h1{
+   opacity: 1; 
+}
+
+.nkar .nkar2{
+   width: 500px;
+   height: 500px;
+   background: rgb(255, 255, 255);
+   background-image: url(https://res.cloudinary.com/fictive-kin/image/upload/v1/verygoods/prod/9d9ac2ce3a1cd12a36d7981cc5a37872090749de);
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+}
+
+.nkar .nkar2 h1 {
+   font-size: 60px;
+   position: absolute;
+   left: 35%;
+   top: 43%;
+   opacity: 0;
+   transition: 1s;
+}
+
+.nkar2:hover h1{
+   opacity: 1; 
+}
+
+.nkar .nkar3{
+   width: 500px;
+   height: 500px;
+   background: rgb(255, 255, 255);
+   background-image: url(https://d330gmu8jafas0.cloudfront.net/wordpress/Home_Bilder_Unten/02_460x460_aw20-optimized.jpg);
+   background-size: cover;
+   background-position: center;
+   position: absolute;
+   top: 100%;
+   left: 50%;
+}
+
+.nkar .nkar3 h1 {
+   font-size: 60px;
+   position: absolute;
+   left: 18%;
+   top: 43%;
+   opacity: 0;
+   transition: 1s;
+}
+
+.nkar3:hover h1{
+   opacity: 1; 
+}
+
+.nkar .nkar4{
+   width: 500px;
+   height: 500px;
+   background: rgb(255, 255, 255);
+   background-image: url(https://i.ebayimg.com/images/g/TmUAAOSw0CJgZPBG/s-l640.jpg);
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+   top: 100%;
+   left: 15%;
+}
+
+.nkar .nkar4 h1 {
+   font-size: 60px;
+   position: absolute;
+   left: 2%;
+   top: 43%;
+   opacity: 0;
+   transition: 1s;
+}
+
+ .nkar4:hover h1{
+   opacity: 1; 
+}
